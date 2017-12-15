@@ -67,16 +67,15 @@ body {
 }
 /*三角*/
 .swiper-button-next{
-    height: 5.9%;
-    width: 8.9%;
+    height: 5.3%;
+    width: 8.1%;
     position: absolute;
-    bottom: 2%;
-    left: 46%;
-    z-index: 10;
+    bottom: 3%;
+    left: 47%;
     top: auto;
-    transform:rotateZ(-90deg);
-    background:url("../img/san.png");
-    animation:run 1s linear infinite;
+    transform: rotateZ(-90deg);
+    background: url(../img/san.png);
+    animation: run 1s linear infinite;
 }
 @keyframes run {
     from{
@@ -322,17 +321,18 @@ body {
 }
 .swiper-slide.two .center .top{
     width: 95%;
-    height:55%;
+    height: 50%;
     /*border: 1px solid white;*/
     position: absolute;
-    top:-1%;
-    left:2%;
+    top: -1%;
+    left: 2%;
     margin: 0 auto;
-    /*z-index:8;*/
+    /* z-index: 8; */
     color: white;
 }
 .swiper-slide.two .center .top p{
     line-height:1.5em;
+    font-size: 5vw;
 }
 /*文字*/
 .swiper-slide.two .center .top .title{
@@ -340,7 +340,7 @@ body {
     left: 2%;
     text-align: left;
     position: absolute;
-    font-size: 129%;
+    font-size: 5vw;
     /*border:1px solid white;*/
 }
 /*内容*/
@@ -349,7 +349,7 @@ body {
     left:3%;
     text-align: left;
     position: absolute;
-    font-size:122%;
+    font-size: 5vw;
     /*border:1px solid white;*/
 }
 /*图片*/
@@ -492,24 +492,17 @@ body {
     color: white;
 }
 .swiper-slide.three .center .bottom{
-    width: 89%;
-    height:33%;
-    /*border: 1px solid white;*/
+    width: 90%;
+    height: 30%;
     position: absolute;
-    top:64%;
-    left:3%;
-    margin: 0 auto;
+    left: 5%;
+    top: 66%;
+    z-index:10;
+    /*border: 1px solid white;*/
 }
 .swiper-slide.three .center .bottom img{
-    /*width: 97%;*/
-    /*height:121%;*/
-    /*border: 1px solid white;*/
-    position: absolute;
-    height: 100%;
     width: 100%;
-    left: 1%;
-    top: -6%;
-    z-index: 2;
+
 }
 /*底部-光*/
 .swiper-slide.three .bottom{
@@ -621,14 +614,14 @@ body {
     height:66%;
     /*border: 1px solid white;*/
     position: absolute;
-    top: 29%;
+    top: 25%;
     left:0%;
     margin: 0 auto;
     /*margin-top:10%;*/
     overflow:hidden;
 }
 .swiper-slide.four .center .content .left{
-    width: 40%;
+    width: 38%;
     height:84%;
     float: left;
     border-right:1px solid #ffffff;
@@ -637,10 +630,10 @@ body {
 
 .swiper-slide.four .center .content p{
     color: white;
-    line-height: 2em;;
+    line-height: 1.8em;;
 }
 .swiper-slide.four .center .content .right{
-    width: 55%;
+    width: 58%;
     height: 84%;
     float: left;
     text-align: center;
@@ -773,6 +766,7 @@ body {
 .swiper-slide.five .center .address{
     /*border: 1px solid white;*/
     position: absolute;
+    z-index:10;
     top: 66%;
     width: 93%;
     height: 34%;
@@ -783,10 +777,12 @@ body {
     /*line-height: 50%;*/
     text-align: center;
 }
+.swiper-slide.five .center .address span{
+    font-size:4vw;
+}
 .swiper-slide.five .center .address .one{
     margin-top: 1%;
     font-family: Gautami;
-    font-size: 100%;
     color: white;
     /*border: 1px solid white;*/
 
@@ -794,28 +790,24 @@ body {
 .swiper-slide.five .center .address .two{
     margin-top: 1%;
     font-family: Gautami;
-    font-size: 100%;
     color: white;
     /*border: 1px solid white;*/
 }
 .swiper-slide.five .center .address .three{
     margin-top: 1%;
     font-family: Gautami;
-    font-size: 93%;
     color: white;
     /*border: 1px solid white;*/
 }
 .swiper-slide.five .center .address .four{
     margin-top: 1%;
     font-family: Gautami;
-    font-size: 100%;
     color: white;
     /*border: 1px solid white;*/
 }
 .swiper-slide.five .center .address .five {
     margin-top: 1%;
     font-family: Gautami;
-    font-size: 100%;
     color: white;
     /*border: 1px solid white;*/
 }
