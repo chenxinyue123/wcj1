@@ -67,14 +67,12 @@ body {
 }
 /*三角*/
 .swiper-button-next{
-    height: 5.3%;
-    width: 8.1%;
     position: absolute;
     bottom: 3%;
     left: 47%;
     top: auto;
     transform: rotateZ(-90deg);
-    background: url(../img/san.png);
+    background: url(../img/san.png) no-repeat;
     animation: run 1s linear infinite;
 }
 @keyframes run {
@@ -324,14 +322,14 @@ body {
     height: 50%;
     /*border: 1px solid white;*/
     position: absolute;
-    top: -1%;
+    top: 3%;
     left: 2%;
     margin: 0 auto;
     /* z-index: 8; */
     color: white;
 }
 .swiper-slide.two .center .top p{
-    line-height:1.5em;
+    line-height:1.8em;
     font-size: 5vw;
 }
 /*文字*/
@@ -469,10 +467,10 @@ body {
  /*内容部分*/
 .swiper-slide.three .center .main{
     width: 97%;
-    height:48%;
+    height:40%;
     /*border: 1px solid white;*/
     position: absolute;
-    top:10%;
+    top:8%;
     left:0%;
     margin: 0 auto;
     /*margin-top: 15%;*/
@@ -496,7 +494,7 @@ body {
     height: 30%;
     position: absolute;
     left: 5%;
-    top: 66%;
+    top: 62%;
     z-index:10;
     /*border: 1px solid white;*/
 }
