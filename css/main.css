@@ -1283,29 +1283,30 @@ body {
 
 .swiper-slide.eight  .center .bottom{
     width: 92%;
-    height: 24%;
+    height: 27%;
     /*border: 1px solid white;*/
     position: absolute;
-    top: 73%;
+    top: 70%;
     overflow: hidden;
     margin: 0 auto;
     bottom: 0;
     left: 2%;
     z-index:10;
-    font-size: 10vw;
+    /*font-size: 10vw;*/
+    font-size: 6vw;
 }
 
 .swiper-slide.eight  .center .bottom .first{
     width: 100%;
     font-family: Gautami;
     color: white;
-    /* border: 1px solid white; */
+     /*border: 1px solid white;*/
     position: absolute;
     overflow: hidden;
     margin: 0 auto;
-    top: 6%;
+    top: 5%;
     left:0;
-    text-align: left;
+    /*text-align: left;*/
 
 
     /* border: 1px solid white; */
@@ -1315,15 +1316,26 @@ body {
     width: 100%;
     font-family: Gautami;
     color: white;
-    /* border: 1px solid white; */
+     /*border: 1px solid white;*/
     position: absolute;
     overflow: hidden;
     margin: 0 auto;
-    top: 45%;
-    right:-5%;
+    top: 33%;
+    right:-3%;
+    /*text-align: right;*/
+}
+.swiper-slide.eight  .center .bottom .third{
+    width: 100%;
+    font-family: Gautami;
+    color: white;
+     /*border: 1px solid white;*/
+    position: absolute;
+    overflow: hidden;
+    margin: 0 auto;
+    top: 62%;
+    right:3%;
     text-align: right;
 }
-
 
 /*底部-光*/
 .swiper-slide.eight .bottom{
